@@ -118,8 +118,8 @@ def scrape_gen_ed_courses(course_codes: List[str]) -> Dict[str, Dict[str, str]]:
                         instructor_th = "; ".join([name.lstrip('- ').strip() for name in get_text_elements("/html/body/div[2]/div/div/div[2]/div[3]//span", "Instructors TH") if name])
 
                         result[course_code].update({
-                            "full_title_th": full_title_th,
-                            "instructor_th": instructor_th
+                            "full_title_th": full_title_th if full_title_th else "N/A",
+                            "instructor_th": instructor_th if instructor_th else "N/A"
                         })
 
                 except WebDriverException as e:
