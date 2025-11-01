@@ -1,1 +1,6 @@
-conda create -n web_scraping python=3.11 && conda activate web_scraping && pip install -r requirements.txt
+conda create -n web_scraping python=3.11
+
+conda activate web_scraping
+
+pip install --upgrade pip
+pip install -r requirements.txt
