@@ -61,7 +61,7 @@ python gened_scraping.py
 
 ```plaintext
 scraped_data/
-└── gen_ed_courses_scraped.csv
+└── gened_courses_scraped.csv
 ```
 
 ---
