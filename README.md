@@ -50,7 +50,7 @@ Make sure you have:
 <summary><strong>Run via Python</strong></summary>
 
 ```bash
-python gen_ed_scraping.py
+python gened_scraping.py
 ```
 
 </details>
@@ -70,7 +70,7 @@ scraped_data/
 
 ```plaintext
 ├── .gitignore
-├── gen_ed_scraping.py
+├── gened_scraping.py
 ├── scraped_data/
 ├── README.md
 ├── requirements.txt
